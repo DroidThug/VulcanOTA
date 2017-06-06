@@ -33,7 +33,7 @@ public class OTAConfig extends Properties {
     private final static String OTA_URL = "ota_url";
     private final static String RELEASE_TYPE = "release_type";
 
-    private final static String DEVICE_NAME = "device_name";
+    private final static String STREAM = "stream";
 
     private final static String VERSION_SOURCE = "version_source";
     private final static String VERSION_DELIMITER = "version_delimiter";
@@ -72,7 +72,7 @@ public class OTAConfig extends Properties {
     }
 
     public String getDeviceSource() {
-        return getProperty(OTAConfig.DEVICE_NAME, "");
+        return getProperty(OTAConfig.STREAM, "");
     }
 
     public String getDelimiter() {
