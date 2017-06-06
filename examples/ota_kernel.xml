@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SlimOTA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ota.xsd">
+    <VULCAN>
+        <beta>
+            <Filename>vulcan-beta-rb1-mido</Filename>
+            <KernelUrl
+                id="kernel"
+                title="Kernel"
+                description="Download Vulcan builds">http://vulcan.droidithug.me/experimental/beta/</KernelUrl>
+            <ChangelogUrl
+                id="changelog"
+                title="Changelog"
+                description="Get Vulcan changelogs">https://www.androidfilehost.com/?w=files&amp;flid=21888</ChangelogUrl>
+            <XDAUrl
+                id="xda"
+                title="XDA"
+                description="Visit SlimSaber bacon thread">https://droidthug.me</XDAUrl>
+            <SourceUrl
+                id="source"
+                title="GPL Source"
+                description="GPL Source for Vulcan">https://github.com/DroidThug/vulcan_mido</SourceUrl>
+            <TGUrl
+                id="tg"
+                title="Telegram Group"
+                description="Join the Vulcan Telegram group for discussion">https://t.me/joinchat/AAAAAEM8MSbTnVQEamL7LQ</TGUrl>
+	</beta>
+    </VULCAN>
+</SlimOTA>

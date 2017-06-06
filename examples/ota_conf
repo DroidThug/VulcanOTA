@@ -1,15 +1,15 @@
 #
 # OTA XML
 #
-# See ota_lollipop.xml for example
+# See ota_kernel.xml for example
 #
 # Note:
-# * Multiple devices can be added in the xml file
+# * Multiple streams can be added in the xml file
 # * You can define any tags that end with 'Url'. These tags will be added in the UI automatically 
 #
 ota_url=https://www.dropbox.com/s/u2k60hvjn2c02h0/ota_lollipop.xml?dl=1
-release_type=Stable
-device_name=ro.product.device
+release_type=VULCAN
+stream=ro.vulcan.stream
 
 #
 # VERSION
@@ -18,12 +18,6 @@ device_name=ro.product.device
 # A version source can be a 'property key' from build.prop or a 'uname -r' command line
 # If a version is a number, leave the version_format empty. Otherwise, provide the date format
 #
-# Example with a property key 'ro.modversion' : Parse the date 20150426 from 'SlimSaber-bacon-5.0.2-20150426'
-#
-# Version source: ro.modversion
-# Version delimiter: -
-# Version position: 3 (zero based)
-# Version format: yyyyMMdd
 #
 # Example with 'uname -r': Parse the number 239 from '3.4.107~AK.239.OPO.CM12.1'
 #
@@ -32,7 +26,8 @@ device_name=ro.product.device
 # Version position: 3 (zero based)
 # Version format:
 #
-version_source=ro.modversion
-version_delimiter=-
-version_position=3
-version_format=yyyyMMdd
+Version source: uname -r
+Version delimiter: -
+Version position: 3
+#Assuming:  3.18.55-Vulcan-rev1.beta-20170605
+Version format:yyyyMMdd
