@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package com.fusionjack.slimota.configs;
+package com.vulcan.kernelota.configs;
 
 import android.content.Context;
 
-import com.fusionjack.slimota.utils.OTAUtils;
+import com.vulcan.kernelota.utils.OTAUtils;
 
 import java.io.IOException;
 import java.io.InputStream;

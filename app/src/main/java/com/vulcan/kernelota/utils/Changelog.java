@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package com.fusionjack.slimota.utils;
+package com.vulcan.kernelota.utils;
 
 import android.content.Context;
 import android.os.AsyncTask;
 
-import com.fusionjack.slimota.R;
+import com.vulcan.kernelota.R;
 
 import java.io.File;
 import java.io.FileNotFoundException;

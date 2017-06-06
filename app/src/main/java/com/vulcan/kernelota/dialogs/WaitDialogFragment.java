@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.fusionjack.slimota.dialogs;
+package com.vulcan.kernelota.dialogs;
 
 import android.app.Dialog;
 import android.app.DialogFragment;
@@ -22,7 +22,7 @@ import android.app.ProgressDialog;
 import android.content.DialogInterface;
 import android.os.Bundle;
 
-import com.fusionjack.slimota.R;
+import com.vulcan.kernelota.R;
 
 public class WaitDialogFragment extends DialogFragment {
 

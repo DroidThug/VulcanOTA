@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package com.fusionjack.slimota.configs;
+package com.vulcan.kernelota.configs;
 
 import android.content.Context;
 
-import com.fusionjack.slimota.xml.OTALink;
-import com.fusionjack.slimota.xml.OTAParser;
-import com.fusionjack.slimota.utils.OTAUtils;
+import com.vulcan.kernelota.xml.OTALink;
+import com.vulcan.kernelota.xml.OTAParser;
+import com.vulcan.kernelota.utils.OTAUtils;
 
 import org.json.JSONArray;
 import org.json.JSONException;

@@ -18,8 +18,8 @@
 <resources>
 
     <!-- App -->
-    <string name="app_name">SlimOTA</string>
-    <string name="app_title">System updates</string>
+    <string name="app_name">VulcanOTA</string>
+    <string name="app_title">Kernel Updates</string>
 
     <!-- Categories -->
     <string name="ota_category">OTA</string>
@@ -28,7 +28,7 @@
     <!-- ROM info -->
     <string name="latest_version">Latest version: %1$s</string>
     <string name="unknown">Unknown</string>
-    <string name="system_uptodate">Your system is up to date</string>
+    <string name="system_uptodate">Your kernel is up to date</string>
 
     <!-- Check update -->
     <string name="check_update_title">Check update</string>
@@ -43,11 +43,11 @@
     <string name="autoupdate_disabled">Automatic update is disabled</string>
 
     <!-- Notification -->
-    <string name="notification_title">ROM Update</string>
-    <string name="notification_message">New update available!</string>
+    <string name="notification_title">Kernel Update</string>
+    <string name="notification_message">New Kernel update available! TO POWER!</string>
 
     <!-- Dialog -->
-    <string name="dialog_message">Checking for ROM updates, please wait…</string>
+    <string name="dialog_message">Checking for Kernel updates, please wait…</string>
     <string name="no_changelog_summary">No changelog</string>
     <string name="changelog_title">Changelog</string>
     <string name="changelog_summary">Current changelog</string>

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.fusionjack.slimota.configs;
+package com.vulcan.kernelota.configs;
 
 import android.app.AlarmManager;
 import android.content.Context;
@@ -22,9 +22,9 @@ import android.content.SharedPreferences;
 import android.preference.PreferenceManager;
 
 import com.commonsware.cwac.wakeful.WakefulIntentService;
-import com.fusionjack.slimota.R;
-import com.fusionjack.slimota.scheduler.OTAListener;
-import com.fusionjack.slimota.utils.OTAUtils;
+import com.vulcan.kernelota.R;
+import com.vulcan.kernelota.scheduler.OTAListener;
+import com.vulcan.kernelota.utils.OTAUtils;
 
 import java.text.DateFormat;
 import java.util.Date;

@@ -1,4 +1,4 @@
-package com.fusionjack.slimota;
+package com.vulcan.kernelota;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;
